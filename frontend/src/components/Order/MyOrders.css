@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roberto:wght@400;700&display=swap');
+
+.myOrdersPage {
+    padding: 20px;
+    padding-top: 35px;
+    font-family: 'Roberto', cursive;
+}
+
+h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.order-table th,
+.order-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+    background-color: tomato;
+    color: white;
+}
+
+.order-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.order-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.order-table a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,192 @@
+.orderDetailsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2vmax;
+    background-color: #f5f5f5;
+}
+
+.paymentDetailsContainerBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.paymentDetailsContainerBox h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.paymentDetailsContainerBox p {
+    margin: 0;
+}
+
+.greenColor {
+    color: green;
+}
+
+.redColor {
+    color: red;
+}
+
+
+.orderDetailBill table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orderDetailBill th,
+.orderDetailBill td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.orderDetailBill th {
+    background-color: #f7f7f7;
+}
+
+.totalRow {
+    font-weight: bold;
+}
+
+.orderDetailBill a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.orderDetailBill a:hover {
+    text-decoration: underline;
+}
+
+.orderDetailBill b {
+    font-weight: bold;
+}
+
+.orderDetailBill .orderItem {
+    margin-bottom: 5px;
+}
+
+
+.orderDetailBill a:hover {
+    text-decoration: underline;
+}
+
+.orderDetailBill span {
+    font-size: 16px;
+}
+
+.orderDetailBill b {
+    font-weight: bold;
+}
+
+.paymentDetailsContainerBox>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.orderDetailBill {
+    display: flex;
+    flex-direction: column;
+}
+
+.orderDetailsContainerBox,
+.orderDetailsCartItemsContainer {
+    margin: 2vmax;
+}
+
+.orderDetailsContainerBox>div {
+    display: flex;
+    margin: 1vmax 0;
+}
+
+.orderDetailsContainerBox>div>p {
+    font: 400 1vmax "Roboto";
+    color: black;
+}
+
+.orderDetailsContainerBox>div>span {
+    margin: 0 1vmax;
+    font: 100 1vmax "Roboto";
+    color: #575757;
+}
+
+.orderDetailsCartItems>p {
+    font: 400 1.8vmax "Roboto";
+}
+
+.orderDetailsCartItems {
+    padding: 2vmax 5vmax;
+    border-top: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.orderDetailsCartItemsContainer>div {
+    display: flex;
+    font: 400 1vmax "Roboto";
+    align-items: center;
+    margin: 2vmax 0;
+}
+
+.orderDetailsCartItemsContainer>div>img {
+    width: 3vmax;
+}
+
+.orderDetailsCartItemsContainer>div>a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+}
+
+.orderDetailsCartItemsContainer>div>span {
+    font: 100 1vmax "Roboto";
+    color: #5e5e5e;
+}
+
+@media screen and (max-width: 600px) {
+    .orderDetailsContainer>p {
+        font: 400 6vw "Roboto";
+    }
+
+    .orderDetailsContainerBox>div {
+        margin: 6vw 0;
+    }
+
+    .orderDetailsContainerBox>div>p {
+        font: 400 4vw "Roboto";
+    }
+
+    .orderDetailsContainerBox>div>span {
+        font: 100 4vw "Roboto";
+    }
+
+    .orderDetailsCartItems>p {
+        font: 400 6vw "Roboto";
+    }
+
+    .orderDetailsCartItemsContainer>div {
+        font: 400 4vw "Roboto";
+        margin: 4vw 0;
+    }
+
+    .orderDetailsCartItemsContainer>div>img {
+        width: 10vw;
+    }
+
+    .orderDetailsCartItemsContainer>div>a {
+        margin: 2vw;
+        width: 30%;
+    }
+
+    .orderDetailsCartItemsContainer>div>span {
+        font: 100 4vw "Roboto";
+    }
+}
